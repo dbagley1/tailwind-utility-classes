@@ -1,4 +1,4 @@
-A CSS file containing specific [Tailwind utility classes](tailwind-utility-classes.css) for projects where a build step is impractical.
+A [CSS file](tailwind-utility-classes.css) containing specific Tailwind utility classes for projects where a build step is impractical.
 
 To limit the filesize, I only included the classes I use most often and only included the "sm" and "lg" responsive breakpoints.
 
