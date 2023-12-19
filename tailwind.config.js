@@ -17,7 +17,7 @@ export default {
     bp(/auto-cols-(min|max|fr|auto)/),
     bp(/^text-(xs|sm|base|md|lg|xl|\dxl|left|right|center)$/),
     p(/^font-/),
-    p(/^object-/),
+    p(/^object-/, ['hover']),
     bp(/^bg-((no|left|right)-)\w+$/),
     bp(/^bg-(auto|cover|contain)$/),
     bp(/^(w|h)-full$/),

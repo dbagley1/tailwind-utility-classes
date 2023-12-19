@@ -678,6 +678,76 @@
   font-weight: 100;
 }
 
+.hover\:object-contain:hover {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hover\:object-cover:hover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hover\:object-fill:hover {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.hover\:object-none:hover {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.hover\:object-scale-down:hover {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.hover\:object-bottom:hover {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.hover\:object-center:hover {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.hover\:object-left:hover {
+  -o-object-position: left;
+     object-position: left;
+}
+
+.hover\:object-left-bottom:hover {
+  -o-object-position: left bottom;
+     object-position: left bottom;
+}
+
+.hover\:object-left-top:hover {
+  -o-object-position: left top;
+     object-position: left top;
+}
+
+.hover\:object-right:hover {
+  -o-object-position: right;
+     object-position: right;
+}
+
+.hover\:object-right-bottom:hover {
+  -o-object-position: right bottom;
+     object-position: right bottom;
+}
+
+.hover\:object-right-top:hover {
+  -o-object-position: right top;
+     object-position: right top;
+}
+
+.hover\:object-top:hover {
+  -o-object-position: top;
+     object-position: top;
+}
+
 @media (min-width: 640px) {
   .sm\:m-0 {
     margin: 0px;
