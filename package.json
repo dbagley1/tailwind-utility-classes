@@ -5,7 +5,9 @@
   "main": "Tailwind Utility Classes Safelist Config.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./input.css -o ./tailwind-utility-classes.css --watch",
-    "build": "npx tailwindcss -i ./input.css -o tailwind-utility-classes.min.css --minify"
+    "build": "npx tailwindcss -i ./input.css -o tailwind-utility-classes.min.css --minify",
+    "dev:prose": "npx tailwindcss -i ./prose-input.css -o ./tailwind-prose.css --watch",
+    "build:prose": "npx tailwindcss -i ./prose-input.css -o tailwind-prose.min.css --minify"
   },
   "keywords": [],
   "author": "",
