@@ -6,6 +6,9 @@ function p(pattern, variants) { return { pattern, variants }; }
 function bp(pattern, addVariants) { return p(pattern, [...breakPoints, addVariants]); };
 
 export default {
+  content: [
+    // { raw: '<div class="prose">', extension: 'html' }
+  ],
   safelist: [
     bp(/^(hidden|flex|block|grid)$/),
     p(/flex-/),
@@ -41,6 +44,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
 
