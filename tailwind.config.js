@@ -23,7 +23,11 @@ export default {
     bp(/^(w|h)-full$/),
     p(/line-clamp-/),
     bp(/aspect-/),
-    bp(/^(m|p)-0$/)
+    bp(/^(m|p)-0$/),
+    p(/^(no-)?(under|over)?line(-through)?$/),
+    p(/^(uppercase|lowercase|capitalize|normal-case)$/),
+    p(/^list-(none|disc|decimal)$/),
+    p(/text-(balance|pretty)/),
   ],
   corePlugins: {
     preflight: false,
