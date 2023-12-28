@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
-let breakPoints = ['sm', 'lg'];
+let breakPoints = ['sm', 'md', 'lg'];
 // breakPoints = [];
 function p(pattern, variants) { return { pattern, variants }; }
-function bp(pattern, addVariants) { return p(pattern, [...breakPoints, addVariants]); };
+function bp(pattern, addVariants=[]) { return p(pattern, [...breakPoints, ...addVariants]); };
 
 export default {
   content: [
