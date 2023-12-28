@@ -10,7 +10,7 @@ export default {
     // { raw: '<div class="prose">', extension: 'html' }
   ],
   safelist: [
-    bp(/^(hidden|flex|block|grid)$/),
+    bp(/^(hidden|flex|block|grid)$/,['hover']),
     p(/flex-/),
     bp(/^(justify|items)-[^-]+$/),
     bp(/^grid-(cols|rows)-(1|2|3|4|5|6|7|8)$/),

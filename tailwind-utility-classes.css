@@ -776,6 +776,22 @@
   text-decoration-line: none;
 }
 
+.hover\:block:hover {
+  display: block;
+}
+
+.hover\:flex:hover {
+  display: flex;
+}
+
+.hover\:grid:hover {
+  display: grid;
+}
+
+.hover\:hidden:hover {
+  display: none;
+}
+
 .hover\:object-contain:hover {
   -o-object-fit: contain;
      object-fit: contain;
