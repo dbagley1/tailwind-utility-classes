@@ -722,6 +722,14 @@
   text-transform: none;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
 .underline {
   text-decoration-line: underline;
 }
