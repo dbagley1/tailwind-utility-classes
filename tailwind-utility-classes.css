@@ -110,6 +110,10 @@
   margin: 0px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -872,9 +876,29 @@
      object-position: top;
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:overline:hover {
+  text-decoration-line: overline;
+}
+
+.hover\:line-through:hover {
+  text-decoration-line: line-through;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
+}
+
 @media (min-width: 640px) {
   .sm\:m-0 {
     margin: 0px;
+  }
+
+  .sm\:m-auto {
+    margin: auto;
   }
 
   .sm\:block {
@@ -1288,6 +1312,10 @@
     margin: 0px;
   }
 
+  .md\:m-auto {
+    margin: auto;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1697,6 +1725,10 @@
 @media (min-width: 1024px) {
   .lg\:m-0 {
     margin: 0px;
+  }
+
+  .lg\:m-auto {
+    margin: auto;
   }
 
   .lg\:block {
