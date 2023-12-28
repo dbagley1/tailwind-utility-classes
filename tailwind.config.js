@@ -20,6 +20,7 @@ export default {
     ...[150, 300, 450, 600].flatMap(x => breakPoints.map(bp => `${bp}:max-w-[${x}px]`)),
     bp(/auto-cols-(min|max|fr|auto)/),
     bp(/^text-(xs|sm|base|md|lg|xl|\dxl|left|right|center)$/),
+    bp(/^text-(black|white)$/),
     p(/^font-/),
     p(/^object-/, ['hover']),
     bp(/^bg-((no|left|right)-)\w+$/),
