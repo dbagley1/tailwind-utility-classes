@@ -627,6 +627,10 @@
   text-align: right;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-mono {
   font-family: var(--font-mono);
 }
@@ -1291,6 +1295,10 @@
     text-align: right;
   }
 
+  .sm\:text-justify {
+    text-align: justify;
+  }
+
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1766,6 +1774,10 @@
     text-align: right;
   }
 
+  .md\:text-justify {
+    text-align: justify;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2239,6 +2251,10 @@
 
   .lg\:text-right {
     text-align: right;
+  }
+
+  .lg\:text-justify {
+    text-align: justify;
   }
 
   .lg\:text-2xl {
