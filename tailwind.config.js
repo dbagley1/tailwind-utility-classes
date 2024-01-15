@@ -33,7 +33,8 @@ export default {
     p(/^(uppercase|lowercase|capitalize|normal-case)$/),
     p(/^list-(none|disc|decimal)$/),
     p(/text-(balance|pretty)/),
-    p(/italic/)
+    p(/italic/),
+    p(/container/),
   ],
   corePlugins: {
     preflight: false,
