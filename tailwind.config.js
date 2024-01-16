@@ -34,7 +34,7 @@ export default {
     p(/^list-(none|disc|decimal)$/),
     p(/text-(balance|pretty)/),
     p(/italic/),
-    p(/container/),
+    // p(/container/),
   ],
   corePlugins: {
     preflight: false,
