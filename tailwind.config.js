@@ -35,7 +35,7 @@ export default {
     p(/text-(balance|pretty)/),
     p(/italic/),
     p(/container/),
-    p(/^divide-(x|y)$/),
+    bp(/^divide-(x|y)$/),
   ],
   corePlugins: {
     preflight: false,
